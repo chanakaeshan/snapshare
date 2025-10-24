@@ -1,11 +1,11 @@
 export const firebaseConfig = {
-    apiKey: "AIzaSyBZ3GUcrPnsfcLuw9ZHbjitBD4XtP8-OIE",
-    authDomain: "ai-assistant-caa0a.firebaseapp.com",
-    databaseURL: "https://ai-assistant-caa0a-default-rtdb.firebaseio.com",
-    projectId: "ai-assistant-caa0a",
-    storageBucket: "ai-assistant-caa0a.firebasestorage.app",
-    messagingSenderId: "601252209873",
-    appId: "1:601252209873:web:06aa176fb33510b4b911f0"
+  apiKey: "AIzaSyBiOJVaCP6XYI2Ik1GctFQZxhK6LZmBTc8",
+  authDomain: "snapshare-19579.firebaseapp.com",
+  databaseURL: "https://snapshare-19579-default-rtdb.firebaseio.com",
+  projectId: "snapshare-19579",
+  storageBucket: "snapshare-19579.firebasestorage.app",
+  messagingSenderId: "683989199115",
+  appId: "1:683989199115:web:cbe090f1d69c7905501a0e"
   };
   
   import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js';
