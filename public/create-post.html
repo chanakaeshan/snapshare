@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Create Post — SnapImg</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <h1><a href="index.html">SnapImg</a></h1>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="create-post.html">Create Post</a>
+        </nav>
+        <div id="auth-area"></div>
+      </div>
+    </header>
+
+    <main>
+      <section id="uploader" class="card">
+        <h2>Create Post</h2>
+        <form id="post-form">
+          <input type="file" id="image-file" accept="image/*" required />
+          <img id="preview-img" class="preview hidden" alt="preview" />
+          <input type="text" id="caption" placeholder="Write a short caption" maxlength="200" />
+          <button type="submit">Post</button>
+        </form>
+        <div id="upload-status" class="muted"></div>
+      </section>
+    </main>
+
+    <footer>
+      <small>Built for the DETZ AI Innovation Division training task.</small>
+    </footer>
+
+    <script type="module" src="src/auth.js"></script>
+    <script type="module" src="src/upload.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Register — SnapImg</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <h1><a href="index.html">SnapImg</a></h1>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="create-post.html">Create Post</a>
+        </nav>
+        <div id="auth-area"></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Create account</h2>
+        <form id="page-signup-form">
+          <input type="text" id="page-signup-name" placeholder="Display name" required />
+          <input type="email" id="page-signup-email" placeholder="Email" required />
+          <input type="password" id="page-signup-pass" placeholder="Password" required />
+          <div class="form-error" id="page-signup-error"></div>
+          <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <small>Built for the DETZ AI Innovation Division training task.</small>
+    </footer>
+
+    <script type="module" src="src/auth-pages.js"></script>
+  </body>
+</html>
